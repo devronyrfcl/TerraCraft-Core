@@ -1,103 +1,86 @@
-# 🌍 TerraCraft-Pro
+# 🌍 TerraCraft Core
 
-> A powerful terrain & environment creation system for Unity — build massive worlds faster, smarter, and better.
+> Open-source terrain and environment creation framework for Unity.
 
----
+TerraCraft Core is the community-driven foundation of the TerraCraft ecosystem, providing essential tools for terrain generation, landscape editing, vegetation placement, and world-building workflows.
 
-## 🚀 Overview
-
-**TerraCraft-Pro** is an advanced environment toolkit for Unity designed to streamline open-world creation.  
-It combines terrain sculpting, procedural generation, vegetation systems, spline-based tools, and dynamic environment effects into one unified workflow.
-
-Whether you're building **realistic landscapes or stylized worlds**, TerraCraft-Pro helps you create production-ready environments in minutes instead of hours.
+Designed for developers, artists, and technical creators, TerraCraft Core aims to simplify environment creation while remaining lightweight, extensible, and fully open-source.
 
 ---
 
-## ✨ Core Features
+## ✨ Features
 
-### 🌄 Terrain System
-- Terrain texture painting (procedural + manual)
-- Real-time terrain height sculpting
-- Multi-layer terrain blending
-- Terrain effects system
+### 🌄 Terrain Tools
 
-### 🌲 Vegetation System
-- Massive tree placement (optimized instancing)
-- Grass generation with density control
-- Custom vegetation support (prefabs + textures)
-- Vegetation range & LOD control
+* Terrain height sculpting
+* Terrain texture painting
+* Landscape editing workflow
 
-### 🛣️ Spline Tools
-- Road system using splines
-- Automatic terrain blending with roads
-- Water spline creation system
+### 🌲 Vegetation Tools
 
-### 🌊 Water & Environment
-- Water area generation
-- Integrated rocks & vegetation spawning
-- Environmental object placement system
+* Tree placement system
+* Grass placement system
+* Custom vegetation support
+* Vegetation range controls
 
-### 🎮 World Building Tools
-- Smart object spawner
-- Weather system integration
-- Environment effect controller
+### 📦 World Building
+
+* Object spawning tools
+* Environment workflow utilities
+* Extensible editor framework
 
 ---
 
-## ⚡ Key Advantages
+## 🎯 Goals
 
-- 🧠 Optimized for large-scale open worlds
-- 🎨 Flexible for realistic and stylized art styles
-- 🛠️ Fully editor-based workflow
-- 🚀 Performance-friendly instancing system
-- 🎯 Designed for rapid prototyping & production use
-
----
-
-## 🎯 Use Cases
-
-- Open-world games
-- Survival games
-- RPG environments
-- Racing tracks & landscapes
-- Simulation worlds
-- Procedural world generation
+* Provide a free and open foundation for Unity world creation
+* Encourage community contributions and improvements
+* Serve as the base framework for the TerraCraft ecosystem
+* Help developers build beautiful environments faster
 
 ---
 
-## 🧩 Requirements
+## 🚀 Getting Started
 
-- Unity 2022.3 LTS or later  
-- URP recommended (HDRP compatible with tweaks)
-
----
-
-## 📦 Installation
-
-1. Clone or download this repository  
-2. Import into Unity project  
-3. Open **TerraCraft-Pro Window** from Tools menu  
-4. Start crafting your world 🌍
+1. Clone this repository
+2. Import into your Unity project
+3. Open the TerraCraft Core tools window
+4. Start building your world
 
 ---
 
-## 🧠 Vision
+## 🤝 Contributing
 
-TerraCraft-Pro aims to become a **complete ecosystem for world creation in Unity**, empowering developers to build large-scale environments without repetitive manual work.
+Contributions are welcome.
+
+Whether you're fixing bugs, improving performance, adding features, or enhancing the user experience, your help is appreciated.
+
+Feel free to fork the project and submit pull requests.
 
 ---
 
-## 🤝 Contributions
+## 🌟 TerraCraft Ecosystem
 
-Contributions, ideas, and improvements are welcome.  
-Feel free to fork and enhance the system.
+### TerraCraft Core
+
+Free and open-source community edition.
+
+### TerraCraft Lite
+
+Free Unity Asset Store edition with polished workflows and additional usability features.
+
+### TerraCraft Pro
+
+Premium edition featuring advanced environment creation systems, spline tools, weather systems, water tools, procedural workflows, and future premium modules.
 
 ---
 
 ## 📄 License
 
-Licensed under your chosen license. See `LICENSE` file for details.
+Licensed under the MIT License.
+
+See the LICENSE file for details.
 
 ---
 
-## 🌟 Made for creators who build worlds, not just scenes.
+### Build Worlds. Share Knowledge. Create Together.
