@@ -1,0 +1,217 @@
+Assets/
+├── TerraCraftPro/
+│   ├── Runtime/
+│   │   ├── Core/
+│   │   │   ├── TerraCraftManager.cs
+│   │   │   ├── TerraCraftSettings.cs
+│   │   │   └── Interfaces/
+│   │   │       ├── ITerrainModifier.cs
+│   │   │       ├── IVegetationPlacer.cs
+│   │   │       └── IEnvironmentController.cs
+│   │   │
+│   │   ├── Terrain/
+│   │   │   ├── TerrainSculptor.cs
+│   │   │   ├── TerrainPainter.cs
+│   │   │   ├── TerrainLayerManager.cs
+│   │   │   └── TerrainEffectController.cs
+│   │   │
+│   │   ├── Vegetation/
+│   │   │   ├── VegetationSpawner.cs
+│   │   │   ├── GrassGenerator.cs
+│   │   │   ├── TreePlacer.cs
+│   │   │   └── VegetationOptimizer.cs
+│   │   │
+│   │   ├── Spline/
+│   │   │   ├── SplineRoadBuilder.cs
+│   │   │   ├── SplineRiverGenerator.cs
+│   │   │   ├── SplineMeshGenerator.cs
+│   │   │   └── SplineTerrainModifier.cs
+│   │   │
+│   │   ├── Water/
+│   │   │   ├── WaterAreaGenerator.cs
+│   │   │   ├── ShorelineDecorator.cs
+│   │   │   ├── WaterShaderController.cs
+│   │   │   └── WaterPhysicsController.cs
+│   │   │
+│   │   ├── World/
+│   │   │   ├── ObjectSpawner.cs
+│   │   │   ├── EnvironmentPreset.cs
+│   │   │   ├── ProceduralPlacer.cs
+│   │   │   └── WorldOptimizer.cs
+│   │   │
+│   │   ├── Environment/
+│   │   │   ├── WeatherSystem.cs
+│   │   │   ├── AtmosphereController.cs
+│   │   │   ├── WindController.cs
+│   │   │   └── EnvironmentalEffects.cs
+│   │   │
+│   │   └── Utilities/
+│   │       ├── TerrainUtility.cs
+│   │       ├── MeshUtility.cs
+│   │       ├── NoiseGenerator.cs
+│   │       ├── PerformanceMonitor.cs
+│   │       └── Extensions/
+│   │           ├── TerrainExtensions.cs
+│   │           └── TransformExtensions.cs
+│   │
+│   ├── Editor/
+│   │   ├── Core/
+│   │   │   ├── TerraCraftProEditor.cs
+│   │   │   ├── TerraCraftSettingsEditor.cs
+│   │   │   └── TerraCraftProMenu.cs
+│   │   │
+│   │   ├── Windows/
+│   │   │   ├── Main/
+│   │   │   │   ├── TerraCraftMainWindow.cs
+│   │   │   │   ├── TerraCraftMainWindow.UI.cs
+│   │   │   │   └── TerraCraftMainWindow.Toolbar.cs
+│   │   │   │
+│   │   │   ├── TerrainEditor/
+│   │   │   │   ├── TerrainEditorWindow.cs
+│   │   │   │   ├── TerrainEditorToolbar.cs
+│   │   │   │   ├── SculptingPanel.cs
+│   │   │   │   └── PaintingPanel.cs
+│   │   │   │
+│   │   │   ├── VegetationEditor/
+│   │   │   │   ├── VegetationEditorWindow.cs
+│   │   │   │   ├── TreePlacementPanel.cs
+│   │   │   │   ├── GrassPaintingPanel.cs
+│   │   │   │   └── VegetationSettingsPanel.cs
+│   │   │   │
+│   │   │   ├── SplineEditor/
+│   │   │   │   ├── SplineEditorWindow.cs
+│   │   │   │   ├── RoadCreationPanel.cs
+│   │   │   │   ├── RiverCreationPanel.cs
+│   │   │   │   └── SplineToolsPanel.cs
+│   │   │   │
+│   │   │   ├── WaterEditor/
+│   │   │   │   ├── WaterEditorWindow.cs
+│   │   │   │   ├── WaterAreaPanel.cs
+│   │   │   │   └── ShorelinePanel.cs
+│   │   │   │
+│   │   │   ├── WorldEditor/
+│   │   │   │   ├── WorldBuilderWindow.cs
+│   │   │   │   ├── ObjectSpawnerPanel.cs
+│   │   │   │   └── EnvironmentPresetPanel.cs
+│   │   │   │
+│   │   │   └── EnvironmentEditor/
+│   │   │       ├── WeatherEditorWindow.cs
+│   │   │       ├── WeatherPresetEditor.cs
+│   │   │       └── AtmosphereSettingsEditor.cs
+│   │   │
+│   │   ├── CustomEditors/
+│   │   │   ├── PropertyDrawers/
+│   │   │   │   ├── TerrainLayerDrawer.cs
+│   │   │   │   ├── SplinePointDrawer.cs
+│   │   │   │   └── VegetationPatchDrawer.cs
+│   │   │   │
+│   │   │   ├── InspectorEditors/
+│   │   │   │   ├── TerrainSculptorEditor.cs
+│   │   │   │   ├── VegetationSpawnerEditor.cs
+│   │   │   │   ├── SplineRoadBuilderEditor.cs
+│   │   │   │   └── WeatherSystemEditor.cs
+│   │   │   │
+│   │   │   └── Decorators/
+│   │   │       ├── TerrainPreviewDecorator.cs
+│   │   │       └── SplinePreviewDecorator.cs
+│   │   │
+│   │   ├── Tools/
+│   │   │   ├── TerrainSculptingTool.cs
+│   │   │   ├── TerrainPaintingTool.cs
+│   │   │   ├── VegetationPlacementTool.cs
+│   │   │   ├── SplineCreationTool.cs
+│   │   │   └── ObjectPlacementTool.cs
+│   │   │
+│   │   ├── Data/
+│   │   │   ├── TerrainPresets/
+│   │   │   │   ├── MountainPreset.asset
+│   │   │   │   ├── ValleyPreset.asset
+│   │   │   │   └── PlainsPreset.asset
+│   │   │   │
+│   │   │   ├── VegetationPresets/
+│   │   │   │   ├── ForestPreset.asset
+│   │   │   │   └── GrasslandsPreset.asset
+│   │   │   │
+│   │   │   └── EnvironmentPresets/
+│   │   │       ├── SunnyPreset.asset
+│   │   │       ├── RainyPreset.asset
+│   │   │       └── SnowyPreset.asset
+│   │   │
+│   │   └── Utilities/
+│   │       ├── EditorGUILayoutExtensions.cs
+│   │       ├── EditorSceneUtility.cs
+│   │       ├── PreviewGenerator.cs
+│   │       └── UndoUtility.cs
+│   │
+│   ├── Resources/
+│   │   ├── Shaders/
+│   │   │   ├── Terrain/
+│   │   │   │   ├── TerrainLit.shader
+│   │   │   │   ├── TerrainLitTess.shader
+│   │   │   │   └── TerrainPreview.shader
+│   │   │   │
+│   │   │   ├── Water/
+│   │   │   │   ├── WaterSurface.shader
+│   │   │   │   ├── WaterUnderwater.shader
+│   │   │   │   └── WaterFoam.shader
+│   │   │   │
+│   │   │   ├── Vegetation/
+│   │   │   │   ├── GrassShader.shader
+│   │   │   │   ├── TreeShader.shader
+│   │   │   │   └── BillboardShader.shader
+│   │   │   │
+│   │   │   └── Effects/
+│   │   │       ├── WeatherEffects.shader
+│   │   │       └── AtmosphereEffects.shader
+│   │   │
+│   │   ├── Materials/
+│   │   │   ├── TerrainMaterials/
+│   │   │   ├── WaterMaterials/
+│   │   │   └── VegetationMaterials/
+│   │   │
+│   │   ├── Prefabs/
+│   │   │   ├── System/
+│   │   │   │   ├── TerraCraftManager.prefab
+│   │   │   │   ├── WeatherSystem.prefab
+│   │   │   │   └── WaterSystem.prefab
+│   │   │   │
+│   │   │   ├── Vegetation/
+│   │   │   │   ├── Trees/
+│   │   │   │   ├── Grass/
+│   │   │   │   └── Plants/
+│   │   │   │
+│   │   │   └── Environment/
+│   │   │       ├── Rocks/
+│   │   │       ├── Foliage/
+│   │   │       └── Props/
+│   │   │
+│   │   └── Textures/
+│   │       ├── Icons/
+│   │       │   ├── ToolIcons/
+│   │       │   └── UITextures/
+│   │       │
+│   │       └── Brushes/
+│   │           ├── TerrainBrushes/
+│   │           └── PaintBrushes/
+│   │
+│   ├── Documentation/
+│   │   ├── Manual.pdf
+│   │   ├── APIReference.chm
+│   │   ├── Tutorials/
+│   │   └── Images/
+│   │
+│   └── Examples/
+│       ├── Scenes/
+│       │   ├── DemoScene.unity
+│       │   ├── PerformanceTest.unity
+│       │   └── Showcase.unity
+│       │
+│       └── Scripts/
+│           ├── ExampleUsage.cs
+│           └── ExampleController.cs
+│
+└── Packages/
+    └── TerraCraftPro/
+        ├── package.json
+        ├── LICENSE
+        └── README.md
